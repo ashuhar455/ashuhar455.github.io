@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Gate Repository</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://ashuhar455.github.io/gaterepo/stylecdn.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript" charset="utf-8">
+
+  
+
+function upd(){
+
+  
+
+  document.getElementById('header').innerHTML = "UPDATES";
+
+  nav_act("update");
+
+  document.getElementById('updcont').style.display = "block";
+
+  document.getElementById('reqcont').style.display = "none";
+
+  document.getElementById('upccont').style.display = "none";
+
+  
+
+}
+
+function upc(){
+
+  document.getElementById('header').innerHTML = "UPCOMMING";
+
+  nav_act("upcomming");
+
+  document.getElementById('updcont').style.display = "none";
+
+  document.getElementById('reqcont').style.display = "none";
+
+  document.getElementById('upccont').style.display = "block";
+
+  
+
+}
+
+function req(){
+
+  document.getElementById('header').innerHTML = "REQUEST";
+
+  nav_act("request");
+
+  document.getElementById('updcont').style.display = "none";
+
+  document.getElementById('reqcont').style.display = "block";
+
+  document.getElementById('upccont').style.display = "none";
+
+  
+
+}
+
+function nav_act(id){
+
+  var act = document.getElementsByClassName("active");
+
+  act[0].className = act[0].className.replace("active","");
+
+  document.getElementById(id).className += "nav-item nav-link font-weight-bold active";
+
+}
+
+  </script>
+
+  <style type="text/css" media="all">
+
+  </style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-light fixed-top bg-danger navbar-expand-md">
+
+<a class="navbar-brand font-weight-light " style="font-family:f1" href="#">
+
+  Gate Repository
+
+  </a>
+
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+            <div class="navbar-nav">
+
+                <a href="#" class="nav-item nav-link active" onclick="upd()" id="update" data-toggle="collapse" data-target="#navbarCollapse">Updates</a>
+
+                <a href="#" class="nav-item nav-link" onclick="upc()" id="upcomming" data-toggle="collapse" data-target="#navbarCollapse">Upcomming</a>
+
+                <a href="#" class="nav-item nav-link" onclick="req()" id="request" data-toggle="collapse" data-target="#navbarCollapse">Requests</a>
+
+                </div>
+
+                </div>
+
+</nav> 
+
+<div class="container" id="cont1">
+
+<div class="jumbotron bg-danger " id="header">UPDATES</div>
+
+<div class="" id="updcont">
+
+<div class="card updcont border border-danger bg-transparent" >
+
+  <div class="card-header bg-danger">
+
+    <h5>30 june 2020</h5>
+
+  </div>
+
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+
+    <p class="card-text">
+
+      <ul>
+
+        <li>Updated readme file.</li>
+
+        <li>Added support for requests and material submission.</li>
+
+      </ul>
+
+    </p>
+
+  </div>
+
+</div>
+
+  
+
+<div class="card updcont border border-danger bg-transparent" >
+
+  <div class="card-header bg-danger">
+
+    <h5>28 june 2020</h5>
+
+  </div>
+
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+
+    <p class="card-text">
+
+      <ul>
+
+        <li>Added kreatryx K-notes(micro notes) in coaching materials.</li>
+
+        <li>Added new category Question banks.</li>
+
+        <li>Added kreatryx Kuestion practice question sets in question banks.</li>
+
+        <li>Added front read me section.</li>
+
+      </ul>
+
+    </p>
+
+  </div>
+
+</div>
+
+<div class="card updcont border border-danger bg-transparent" >
+
+  <div class="card-header bg-danger">
+
+    <h5>Earlier</h5>
+
+  </div>
+
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+
+    <p class="card-text">
+
+      <ul>
+
+        <li>Added Made easy better maths PDF in coaching materials.</li>
+
+        <li>Rearranged entire drive.</li>
+
+          <li>Added ESE MPPSC-AE Syllabus.</li>
+
+          <li>Added Exam and notif. dates for all major exams</li>
+
+        <li>Added more standard ref. books.</li>
+
+      </ul>
+
+    </p>
+
+  </div>
+
+</div>
+
+</div>
+
+<div class="" id="upccont">
+
+  
+
+<div class="card updcont border border-danger bg-transparent" >
+
+  <div class="card-header bg-danger">
+
+    <h5>Shortly</h5>
+
+  </div>
+
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+
+    <p class="card-text">
+
+      <ul>
+
+        <li>kreatryx video lectures (sold before Unacademy bought kreatryx) 28GB+ .</li>
+
+        <li>ESE Ga/Gs/Es book and question banks.</li>
+
+        <li>Question banks from more institute.</li>
+
+        <li>Video lecture lists of preffered good channels.</li>
+
+        <li>Custom tips and tricks for exams.</li>
+
+        
+
+      </ul>
+
+    </p>
+
+  </div>
+
+</div>
+
+</div>
+
+<iframe id="reqcont" src="https://docs.google.com/forms/d/e/1FAIpQLSdme_nmDn719zAVg9CM30czO_oRYSu_8f1Nj9Q6UYjdc1WllA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</div>
+
+<script type="text/javascript" charset="utf-8">
+
+  upd();
+
+</script>
+
+</body>
+
+ <footer class="bg-danger font-weight-light" style="" id="foot">
+
+    <p id="fotext">Managed by <a style="color:blue" href="#">Voilet.AI</a></p>
+
+ </footer>
+
+ 
+
+</html>
