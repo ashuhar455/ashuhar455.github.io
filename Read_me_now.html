@@ -20,18 +20,18 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 <script>
-  var OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "c47aa4ab-61c5-4d52-8e7c-cb09b49363c9",
-        notifyButton: {
-          enable: true,
-        },
-      });
-      OneSignal.showNativePrompt();
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c47aa4ab-61c5-4d52-8e7c-cb09b49363c9",
+      notifyButton: {
+        enable: true,
+      },
+      subdomainName: "gaterepo",
     });
+  });
 </script>
 
   <script type="text/javascript" charset="utf-8">
