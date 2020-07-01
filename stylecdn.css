@@ -1,0 +1,103 @@
+* {
+
+      margin: 0;
+
+      padding: 0;
+
+}
+
+html{
+
+      height:  100%;
+
+}
+
+body{
+
+      background-color: #191919;
+
+      color: white;
+
+      height: 100%;
+
+    }
+
+    
+
+@font-face {
+
+      font-family: f1;
+
+      src: url(nd.ttf);
+
+    }
+
+    
+
+#cont1{
+
+      padding-top: 75px;
+
+      min-height: 96.5%;
+
+      padding-bottom: 0;
+
+      min-width: 80%;
+
+}
+
+#header {
+
+      text-align:  center;
+
+      font-family:  f1;
+
+      font-size:  32px;
+
+      color: black;
+
+      margin-bottom: 15px;
+
+}
+
+.card-header{
+
+      font-family: f1;
+
+      color: black;
+
+      text-align: center;
+
+}
+
+.card{
+
+      margin-bottom: 20px;
+
+}
+
+#reqcont{
+
+      padding: 0px 0px;
+
+      margin : 0px 0px;
+
+}
+
+#foot {
+
+      position: relative;
+
+      clear: both;
+
+}
+
+#fotext{
+
+      color:   black;
+
+      text-align:  center;
+
+      font-family:  f1;
+
+}
