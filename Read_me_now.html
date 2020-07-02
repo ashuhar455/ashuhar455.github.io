@@ -19,6 +19,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c47aa4ab-61c5-4d52-8e7c-cb09b49363c9",
+    });
+  });
+</script>
 
 
   <script type="text/javascript" charset="utf-8">
@@ -299,16 +309,6 @@ function nav_act(id){
 
   upd();
 </script>
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-</script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "c47aa4ab-61c5-4d52-8e7c-cb09b49363c9",
-    });
-  });
-</script>
-
 </body>
 
  <footer class="bg-danger font-weight-light" style="" id="foot">
