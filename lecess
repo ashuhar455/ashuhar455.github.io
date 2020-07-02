@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gate Repository</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://ashuhar455.github.io/gaterepo/stylecdn.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  
+  <style type="text/css" media="all">
+    
+    a{
+      color: green;
+    }
+    
+  </style>
+  
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+
+  <script type="text/javascript" charset="utf-8">
+  
+  
+function lec(){
+  
+  document.getElementById('header').innerHTML = "LECTURES";
+  nav_act("lecture");
+  document.getElementById('leccont').style.display = "block";
+  document.getElementById('esscont').style.display = "none";
+  
+}
+
+
+function ess(){
+  document.getElementById('header').innerHTML = "ESSENTIALS";
+  nav_act("essential");
+  document.getElementById('leccont').style.display = "none";
+  document.getElementById('esscont').style.display = "block";
+  
+}
+
+function nav_act(id){
+  var act = document.getElementsByClassName("active");
+  act[0].className = act[0].className.replace("active","");
+  document.getElementById(id).className += "nav-item nav-link font-weight-bold active";
+}
+
+
+  </script>
+  <style type="text/css" media="all">
+  </style>
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-light fixed-top bg-success navbar-expand-md">
+<a class="navbar-brand font-weight-light " style="font-family:f1" href="#">
+  Gate Repository
+  </a>
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active" onclick="lec()" id="lecture" data-toggle="collapse" data-target="#navbarCollapse">Lectures</a>
+                <a href="#" class="nav-item nav-link" onclick="ess()" id="essential" data-toggle="collapse" data-target="#navbarCollapse">Essentials</a>
+                
+</nav> 
+<div class="container" id="cont1">
+<div class="jumbotron bg-success " id="header">LECTURES</div>
+
+<div class="" id="leccont">
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>MATHEMATICS</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>APTITUDE</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>NETWORK THEORY</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>CONTROL SYSTEM</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>SIGNAL AND SYSTEM</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>EMFT</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>MACHINES</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>POWER SYSTEM</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>POWER ELECTRONICS</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>ANALOG AND DIGITAL CKTS</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+  
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>EE MEASUREMENT</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      Adding soon
+      <ul>
+        
+      </ul>
+    </p>
+  </div>
+</div>
+
+</div>
+
+<div class="" id="esscont">
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>APPS</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px;padding-top:5px">
+    <p class="card-text" style="">
+      <p class="font-weight-light" style="text-align:center;color:grey;">(Links only for Android)</p>
+      <ul>
+        <li> <a style="color:green;" href="https://play.google.com/store/apps/details?id=com.gatevirtualcalculator.gatevirtualcalculator&hl=en_IN">Gate virtual calculator</a> - Same as the orignal.</li>
+        <li><a style="color:green;" href="https://play.google.com/store/apps/details?id=com.virblue.mystudylife">My study life </a>- Planner</li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.madeeasy.easy">MadeEasy OTS</a>- Best online test series so far.</li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.testbook.tbapp">TestBook</a>- Additional test series in low price just for practice.</li>
+      </ul>
+    </p>
+  </div>
+</div>
+
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>TEST SERIES</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      <p class="font-weight-light" style="text-align:center"></p>
+      <ul>
+        <li><a href="https://www.gateacademy.co.in/online_test_series.php">Gate Academy OTS </a>- High level test series specially for EE.</li>
+        <li><a href="https://onlinetestseriesmadeeasy.in/">Made Easy </a>- Best OTS.</li>
+        <li><a href="https://www.aceenggacademy.com/gate-2021-online-test-series-3/">Ace academy OTS</a>- Alternative/Supplement to MadeEasy OTS</li>
+        <li><a href="http://www.gate.iitg.ac.in/?page_id=86">IITG Orignal 2018 Mock</a>- For having a look how orignal exam looks.</li>
+      </ul>
+    
+</div>
+</div>
+
+<div class="card border border-success bg-transparent" >
+  <div class="card-header bg-success">
+    <h5>BOOKS</h5>
+  </div>
+  <div class="card-body bg-transparent" style="margin-left: 10px">
+    <p class="card-text">
+      <p class="font-weight-light" style="text-align:center"></p>
+      <ul>
+       <li><a href="https://www.gateacademy.shop/books/electrical-engineering">Gate Academy Electrical Vol 1 & 2</a>- Unsolved + Consise theory with QR code to video solutions</li>
+       <li><a href="https://www.gateacademy.shop/books/mathematics-and-aptitude/glbbpyma1b">Gate academy Maths</a>- Maths previous year questions with QR code to solution videos.</li>
+       <li><a href="http://prakashbookdepot.com/index.php?route=product/product&manufacturer_id=15&product_id=313&page=2">MadeEasy Gate Electrical 2021</a>Previous year solved papers(recommended)</li>
+       <li><a href="http://prakashbookdepot.com/index.php?route=product/product&manufacturer_id=15&product_id=363">MadeEasy Gate Maths 2021</a>- Previous year solved questions (recommended)</li>
+       <li><a href="http://prakashbookdepot.com/index.php?route=product/product&manufacturer_id=15&product_id=280&page=2">MadeEasy Electrical engineering Handbook</a>-Basic notes to keep you on track. </li>
+       <li><a href="http://dl.flipkart.com/dl/rs-aggarwal-modern-approach-verbal-non-reasoning-quantitative-aptitude-fully-solved-for-competitive-exam-with-latest-questions-their-solution-ideal-ssc-ibps-sbi-po-clerk-po-mat-cat-gmat-iift-cpo-cgl-csat-scra-others-rs-aggarwal-english-medium-rs-agarwal-reasoning-rs-papar-back-aggarwal-s-chand-books/p/itmfcg3zjrgandjn?pid=RBKFCG3ZBHYPE6KS&cmpid=product.share.pp">RS Aggarwal Aptitude(Quant+Verbal and non verbal)</a>- Set of two books best for Aptitude.</li>
+         <li><a href="http://dl.flipkart.com/dl/drdo-isro-rac-mechanical-engineering/p/itm12f95f8bd6975?pid=9789389269215&cmpid=product.share.pp">MadeEasy ISRO DRDO</a>- Questions and theory. </li>
+      </ul>
+    
+</div>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  lec();
+</script>
+</body>
+
+
+ <footer class="bg-success font-weight-light" style="" id="foot">
+    <p id="fotext">Managed by <a style="color:blue" href="#">Voilet.AI</a></p>
+ </footer>
+ 
+</html>
